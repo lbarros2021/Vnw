@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+}
+h2 {
+    font-size: 2vw;
+    margin-left: 7vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 40vw;
+    justify-content: space-evenly;
+}
+a:link {
+	text-decoration: none;
+    	color: black;
+	}
+a:hover {
+	text-decoration: solid; 
+    	font-weight: bold;
+	color: black;
+}
+.image-laranja {
+    display: flex;
+    width: 100vw;
+    height: 84vh;
+    background-image: url(images/bg_laranja.png);
+    background-size: cover;
+    align-items: center;
+}
+h1 {
+    font-size: 4vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.laranja-texto {
+    margin-left: 7vw;
+}
+h3 {
+    font-size: 2vw;
+    color: white;
+    margin-top: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.linha-1 {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+.img-linha-1 {
+    height: 41vh;
+    width: 20vw;
+    margin-right: 1vw;
+}
+.linha-2 {
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+}
+.img-linha-2 {
+    height: 41vh;
+    width: 20vw;
+    margin-right: 1vw;
+}
+.linha-3 {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+}
+.img-linha-3 {
+    height: 41vh;
+    width: 20vw;
+    margin-right: 1vw;
+}
+footer {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: #E8E8E8;
+    align-items: center;
+}
+.icones-rodape {
+    display: flex;
+    width: 30vw;
+    margin-left: 7vw;
+}
+.icones {
+    margin-left: 1vw;
+}
+h5 {
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1vw;
+}
+p {
+    font-size: 2vh;
+    font-family: 'Montserrat', sans-serif;
+}
